@@ -5,9 +5,15 @@
 ### Setup
 
 ```bash
-SHOPIFY_ADMIN_API_VERSION=2024-04
+SHOPIFY_ADMIN_API_VERSION=2024-07
 SHOPIFY_STORE=suavecito
 SHOPIFY_ACCESS_TOKEN=
+```
+
+### Generate Types
+
+```bash
+npm run generate
 ```
 
 ### Run
