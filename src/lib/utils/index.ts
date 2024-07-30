@@ -2,6 +2,7 @@ import fetch from 'node-fetch';
 import { STORE, API_VERSION, ACCESS_TOKEN } from '../const';
 
 export * from './combines-with-shipping';
+export * from './csv-writer';
 
 type ShopifyResponse<T> = {
   data: T;

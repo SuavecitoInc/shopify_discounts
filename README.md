@@ -21,3 +21,62 @@ npm run generate
 ```bash
 npm run update
 ```
+
+```bash
+> shopify-discounts@1.0.0 update
+> tsx src/index.ts
+
+-----------------------------------------------
+Starting Shopify Discount Updater
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 24
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 49
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 74
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 99
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 124
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 149
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 174
+There are more discounts to update
+-----------------------------------------------
+Getting discounts...
+Processing 25 discounts...
+Updated 25 discounts
+Current discount total: 199
+There are more discounts to update
+-----------------------------------------------
+All Discounts Updated
+Total Discounts Updated: 199
+```
