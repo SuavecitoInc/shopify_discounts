@@ -23,7 +23,7 @@ npm run update
 ```
 
 ```bash
-> shopify-discounts@1.0.0 update
+> shopify-discounts@0.0.1 update
 > tsx src/index.ts
 
 -----------------------------------------------
