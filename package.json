@@ -1,0 +1,39 @@
+{
+  "name": "shopify-discounts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint src/**/*.ts",
+    "format": "eslint src/**/*.ts --fix",
+    "generate": "graphql-codegen --config .graphqlrc.ts",
+    "update": "tsx src/index.ts"
+  },
+  "author": "j-Riv <jriv@suavecito.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@shopify/api-codegen-preset": "^1.0.1",
+    "@shopify/graphql-codegen": "^0.1.0",
+    "csv-writer": "^1.6.0",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.5",
+    "eslint": "^8.57.0",
+    "node-fetch": "^3.3.2",
+    "oauth-1.0a": "^2.2.6",
+    "prettier": "^3.2.5",
+    "tsx": "^4.7.1",
+    "typescript": "^5.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "@typescript-eslint/eslint-plugin": "^7.5.0",
+    "@typescript-eslint/parser": "^7.5.0",
+    "husky": "^9.0.11"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run lint"
+    }
+  }
+}
